@@ -1,0 +1,95 @@
+.admin-page {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-nav {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 16px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.admin-logout-btn {
+  background: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.admin-logout-btn:hover {
+  background: #555;
+}
+
+.admin-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.admin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  width: 900px;
+}
+
+.admin-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.badges {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.badge-total { background: #333; }
+.badge-positive { background: #27ae60; }
+.badge-negative { background: #e74c3c; }
+.badge-neutral { background: #2980b9; }
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #4e54c8;
+  color: white;
+}
+
+.admin-table tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sentiment-positive { color: #27ae60; font-weight: bold; }
+.sentiment-negative { color: #e74c3c; font-weight: bold; }
+.sentiment-neutral { color: #2980b9; font-weight: bold; }
